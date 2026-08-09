@@ -1,0 +1,42 @@
+name: zomato_flutter
+description: Zomato Clone - Flutter App with Supabase backend
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase backend
+  supabase_flutter: ^2.3.4
+
+  # State management (like React Context API)
+  provider: ^6.1.2
+
+  # Navigation (like react-router-dom)
+  go_router: ^13.2.0
+
+  # Local storage (like localStorage for cart)
+  shared_preferences: ^2.2.3
+
+  # Image loading with cache
+  cached_network_image: ^3.3.1
+
+  # Date/number formatting
+  intl: ^0.19.0
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
